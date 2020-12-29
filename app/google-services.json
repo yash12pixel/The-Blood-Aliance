@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "145662986898",
+    "firebase_url": "https://the-blood-aliance-9354d-default-rtdb.firebaseio.com",
+    "project_id": "the-blood-aliance-9354d",
+    "storage_bucket": "the-blood-aliance-9354d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145662986898:android:6a542df7e2cc53b965f44b",
+        "android_client_info": {
+          "package_name": "com.example.thebloodaliance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145662986898-bc2cs27lfqhj7ffv8m41igijs792p12l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDozYAk5YfnDEf7dmOxpz2M4vFcL_TKkAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145662986898-bc2cs27lfqhj7ffv8m41igijs792p12l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
