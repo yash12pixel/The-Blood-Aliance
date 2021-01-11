@@ -55,6 +55,7 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+//        getSupportActionBar().setTitle("About Us");
 
 //        getActionBar().setTitle("The Blood Aliance");
 //        getActionBar().setDisplayHomeAsUpEnabled(true);

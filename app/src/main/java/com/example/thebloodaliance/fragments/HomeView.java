@@ -63,7 +63,7 @@ public class HomeView extends Fragment {
 
 
         mAuth = FirebaseAuth.getInstance();
-        getActivity().setTitle("Blood Point");
+        getActivity().setTitle("Blood Aliance");
 
         restAdapter = new BloodRequestAdapter(postLists);
         RecyclerView.LayoutManager pmLayout = new LinearLayoutManager(getContext());

@@ -7,6 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/img1"
         android:layout_gravity="center"
         android:src="@drawable/ic_cover_logo"
         android:layout_width="140dp"

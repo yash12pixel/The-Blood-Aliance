@@ -38,9 +38,9 @@ public class LoginActivity extends AppCompatActivity implements BiometricCallbac
         mAuth = FirebaseAuth.getInstance();
         if(mAuth.getCurrentUser() != null)
         {
-            Intent intent = new Intent(getApplicationContext(), Dashboard.class);
-            startActivity(intent);
-            finish();
+//            Intent intent = new Intent(getApplicationContext(), Dashboard.class);
+//            startActivity(intent);
+//            finish();
             BiometricManager.BiometricBuilder biometricBuilder = new BiometricManager.BiometricBuilder(LoginActivity.this);
             biometricBuilder.setTitle(getString(R.string.biometric_title));
             biometricBuilder.setSubtitle(getString(R.string.biometric_subtitle));
@@ -112,16 +112,22 @@ public class LoginActivity extends AppCompatActivity implements BiometricCallbac
     @Override
     public void onSdkVersionNotSupported() {
         Toast.makeText(getApplicationContext(), getString(R.string.biometric_error_sdk_not_supported), Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(getApplicationContext(), Dashboard.class);
+        startActivity(intent);
     }
 
     @Override
     public void onBiometricAuthenticationNotSupported() {
         Toast.makeText(getApplicationContext(), getString(R.string.biometric_error_hardware_not_supported), Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(getApplicationContext(), Dashboard.class);
+        startActivity(intent);
     }
 
     @Override
     public void onBiometricAuthenticationNotAvailable() {
         Toast.makeText(getApplicationContext(), getString(R.string.biometric_error_fingerprint_not_available), Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(getApplicationContext(), Dashboard.class);
+        startActivity(intent);
     }
 
     @Override

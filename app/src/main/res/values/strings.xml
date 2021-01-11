@@ -86,8 +86,9 @@
     <string name="btn_authenticate">Login</string>
 
     <string name="biometric_title">Login</string>
-    <string name="biometric_subtitle">Login to your Osta account</string>
-    <string name="biometric_description">Place your finger on the device home button to verify your identity</string>
+<!--    <string name="biometric_subtitle">Login to your account</string>-->
+    <string name="biometric_subtitle">Scan your fingerPrint on the fingerprint scanner</string>
+    <string name="biometric_description"> to continue in Blood Aliance app</string>
     <string name="biometric_negative_button_text">CANCEL</string>
 
 
